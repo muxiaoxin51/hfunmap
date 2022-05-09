@@ -1,0 +1,28 @@
+Package: hfunmap
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Shuaicheng",
+           family = "Mu",
+           role = c("aut", "cre"),
+           email = "mushuaicheng@bjfu.edu.cn",
+           comment = c(ORCID = "NULL"))
+Description: Finding significant QTLs using multi-dimensional functional mapping.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+LinkingTo: 
+    Rcpp,
+    RcppArmadillo
+Depends: 
+    R (>= 3.6.0),
+    DEoptim,
+    stats,
+    utils,
+    Rcpp
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

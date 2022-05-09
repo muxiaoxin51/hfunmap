@@ -1,0 +1,20 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("Rcpp","evalCpp")
+useDynLib(hfunmap, .registration = TRUE)
+
+importFrom("stats","optim")
+importFrom("utils","read.csv")
+importFrom("DEoptim","DEoptim")
+
+
+
+export(hello)
+export(hfun_H0_mle)
+export(hfun_H1_mle)
+export(hfun_g_t)
+export(hfun_get_ini)
+export(hfun_get_invsigma)
+export(hfun_get_mu)
+export(hfun_iden_fit)
+export(hfun_load_data)
+export(hfun_lr_cal)
